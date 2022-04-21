@@ -1,3 +1,119 @@
 body {
   background-color: blue;
 }
+
+.Calculator {
+  width: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 5fr;
+  grid-template-areas:
+    "display display display display"
+    "clear neg percent divide"
+    "seven eight nine multiply"
+    "four five six subtract"
+    "one two three add"
+    "zero zero decimal equal";
+  gap: 2px;
+}
+
+button {
+  padding: 8px 10px;
+  border-style: none;
+}
+
+.display::placeholder {
+  color: white;
+}
+
+.display {
+  grid-area: display;
+  text-align: right;
+  background-color: #858693;
+  border: 0;
+  outline: 0;
+}
+
+.multiply,
+.divide,
+.subtract,
+.add,
+.equals {
+  background-color: #f5913e;
+}
+
+.clear {
+  grid-area: clear;
+}
+
+.seven {
+  grid-area: seven;
+}
+
+.eight {
+  grid-area: eight;
+}
+
+.nine {
+  grid-area: nine;
+}
+
+.multiply {
+  grid-area: multiply;
+}
+
+.four {
+  grid-area: four;
+}
+
+.five {
+  grid-area: five;
+}
+
+.six {
+  grid-area: six;
+}
+
+.subtract {
+  grid-area: subtract;
+}
+
+.one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}
+
+.add {
+  grid-area: add;
+}
+
+.decimal {
+  grid-area: decimal;
+}
+
+.equal {
+  grid-area: equal;
+}
+
+.zero {
+  grid-area: zero;
+}
+
+.neg {
+  grid-area: neg;
+}
+
+.percent {
+  grid-area: percent;
+}
+
+.divide {
+  grid-area: divide;
+}
