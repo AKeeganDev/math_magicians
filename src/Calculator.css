@@ -13,6 +13,14 @@
   gap: 2px;
 }
 
+button:active {
+  background-color: #b46627;
+}
+
+button.number:active {
+  background-color: #858693;
+}
+
 button {
   padding: 8px 10px;
   border-style: none;
@@ -23,6 +31,7 @@ button {
 }
 
 .display {
+  color: white;
   grid-area: display;
   text-align: right;
   background-color: #858693;
