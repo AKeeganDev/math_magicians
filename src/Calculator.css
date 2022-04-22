@@ -13,17 +13,17 @@
   gap: 2px;
 }
 
+button {
+  padding: 8px 10px;
+  border-style: none;
+}
+
 button:active {
   background-color: #b46627;
 }
 
 button.number:active {
   background-color: #858693;
-}
-
-button {
-  padding: 8px 10px;
-  border-style: none;
 }
 
 .display::placeholder {
