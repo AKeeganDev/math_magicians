@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 export default class Button extends PureComponent {
   render() {
-    const { value, className } = this.props;
+    const { value, className, clickCallBack } = this.props;
     return (
-      <button type="button" className={className} name={value}>{value}</button>
+      <button type="button" onClick={clickCallBack} className={className} name={value}>{value}</button>
     );
   }
 }
@@ -13,4 +13,9 @@ export default class Button extends PureComponent {
 Button.propTypes = {
   value: PropTypes.string.isRequired,
   className: PropTypes.string.isRequired,
+  clickCallBack: PropTypes.func,
+};
+
+Button.defaultProps = {
+  clickCallBack: () => { },
 };
