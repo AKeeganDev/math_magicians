@@ -18,11 +18,20 @@ button {
   border-style: none;
 }
 
+button:active {
+  background-color: #b46627;
+}
+
+button.number:active {
+  background-color: #858693;
+}
+
 .display::placeholder {
   color: white;
 }
 
 .display {
+  color: white;
   grid-area: display;
   text-align: right;
   background-color: #858693;
