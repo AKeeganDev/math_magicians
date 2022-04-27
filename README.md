@@ -30,7 +30,7 @@ https://akeegandev.github.io/math_magicians/
 
 - GitHub: [@AKeeganDev](https://github.com/AKeeganDev)
 - Twitter: [@AkeeganDev](https://twitter.com/AkeeganDev)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/AKeeganDev)
+- LinkedIn: [AKeeganDev](https://linkedin.com/in/AKeeganDev)
 
 
 ## 🤝 Contributing
