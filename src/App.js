@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
-import Calculator from './components/calculator';
+import CalculatorPage from './pages/CalculatorPage';
+import Home from './pages/Home';
 import NavBar from './components/Navbar';
 import './App.css';
 
@@ -8,7 +9,8 @@ function App() {
     <div className="body">
       <NavBar />
       <Routes>
-        <Route exact path="/" element={<Calculator />} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/calculator" element={<CalculatorPage />} />
       </Routes>
     </div>
   );
