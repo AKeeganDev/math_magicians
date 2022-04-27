@@ -1,0 +1,6 @@
+.calcLayout {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  gap: 80px;
+}
