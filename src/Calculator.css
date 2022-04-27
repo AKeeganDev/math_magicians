@@ -11,6 +11,7 @@
     "one two three add"
     "zero zero decimal equal";
   gap: 2px;
+  padding: 100px;
 }
 
 button {
@@ -37,6 +38,7 @@ button.number:active {
   background-color: #858693;
   border: 0;
   outline: 0;
+  padding: 7px;
 }
 
 .multiply,
