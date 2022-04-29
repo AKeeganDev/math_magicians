@@ -35,7 +35,8 @@ https://akeegandev.github.io/math_magicians/
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+👤 **Boaz Aduda**
+- GitHub: [@Aduda-Boaz](https://github.com/Aduda-Boaz)
 
 
 ## Show your support
