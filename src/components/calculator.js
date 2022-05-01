@@ -34,6 +34,9 @@ function Calculator() {
     }));
   };
   const { total, next } = state;
+
+  // sets display
+
   const display = next || total || 0;
 
   return (
